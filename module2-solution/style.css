@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  body {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 1.5% 10px 1.5%;
+  }
+  .row {
+    width: 100%;
+    position: relative;
+    margin-left: 15px;;
+  }
+  .content {
+    padding-top: 40px;
+    margin: 10px;
+    text-align: left;
+  }
+  .innerdiv1 {
+    position: relative;
+    display: inline-block;
+    width: 95%;
+    margin-top: 20px;
+    background-color: #ADD8E6;
+    border: 1px solid #000000;
+  }
+    .innerdiv2 {
+    position: relative;
+    display: inline-block;
+    width: 95%;
+    margin-top: 20px;
+    background-color: #4682B4;
+    border: 1px solid #000000;
+  }
+    .innerdiv3 {
+    position: relative;
+    display: inline-block;
+    width: 95%;
+    margin-top: 20px;
+    background-color: #40E0D0;
+    border: 1px solid #000000;
+  }
+  
+.title {
+    font-weight: bold;
+    font-size: 1.75em;
+    color: #191970;
+    text-align: center;
+    margin: 20px;
+}
+.subtitle1 {
+  background-color: #ffffff;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  border: 1px solid #000000;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #191970;
+  width: 150px;
+  padding: 5px;
+}
+.subtitle2 {
+  background-color: #ffffff;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  border: 1px solid #000000;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #6495ED;
+  width: 150px;
+  padding: 5px;
+}
+.subtitle3 {
+  background-color: #ffffff;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  border: 1px solid #000000;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #B22222;
+  width: 150px;
+  padding: 5px;
+}
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+  .col-lg-4 {
+    position: relative;
+    float: left;
+  }
+  .col-lg-4 { width: 33.33% }
+  
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    position: relative;
+    box-sizing:border-box;
+    margin-right: 25px;
+    }
+  #first { 
+      float: left;
+      width: 49%;
+  }
+  #second { float: right;
+            width: 49%;          
+  }
+  #third { width: 100%;
+           margin-top: 20px;
+           clear: both;
+}
+}
